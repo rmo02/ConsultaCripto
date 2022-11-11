@@ -1,4 +1,4 @@
-## MobiCrypto - Consultando os Pares de Moedas Mercado Financeiro
+## <div align="center">MobiCrypto - Consultando os Pares de Moedas Mercado Financeiro</div>
 
 <p>Este projeto tem por finalidade consultar informações sobre os pares de moedas e criptomoedas utilizando serviços da Binance</p>
 
