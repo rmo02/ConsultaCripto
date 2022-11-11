@@ -10,6 +10,7 @@ export default function App() {
   const [ text, setText ] = useState('BTCUSDT')
   const [ symbol, setSymbol ] = useState('btcusdt')
 
+  //conecta ao serviço da binance
   const {lastJsonMessage} = useWebSocket(`wss://stream.binance.com:9443/ws/${symbol}@ticker`, {
     shouldReconnect: () => true,
     reconnectInterval: 3000,
@@ -21,6 +22,7 @@ export default function App() {
     }
   })
 
+  //icone de pesquisa
   const searchButton = <Icon.Button
   name='search'
   size={24}
